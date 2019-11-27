@@ -1,0 +1,101 @@
+2019-10-30 14:03:07.257 fty [http-nio-8081-exec-15] ERROR net.hzsec.config.shiro.JwtAuthFilter - token为空-createToken method implementation returned null. A valid non-null AuthenticationToken must be created in order to execute a login attempt.
+2019-10-30 14:08:50.767 fty [http-nio-8081-exec-3] ERROR net.hzsec.config.shiro.JwtAuthFilter - token为空-createToken method implementation returned null. A valid non-null AuthenticationToken must be created in order to execute a login attempt.
+2019-10-30 14:13:40.000 fty [http-nio-8081-exec-1] ERROR n.h.c.exception.AllControllerAdvice - 接口出现严重异常：Failed to convert value of type 'java.lang.String' to required type 'int'; nested exception is java.lang.NumberFormatException: For input string: "1asda"
+2019-10-30 14:14:34.828 fty [http-nio-8081-exec-2] ERROR n.h.c.exception.AllControllerAdvice - 接口出现严重异常：Failed to convert value of type 'java.lang.String' to required type 'int'; nested exception is java.lang.NumberFormatException: For input string: "1asda"
+2019-10-30 14:17:46.821 fty [http-nio-8081-exec-1] ERROR n.h.c.exception.AllControllerAdvice - 接口出现严重异常：Failed to convert value of type 'java.lang.String' to required type 'int'; nested exception is java.lang.NumberFormatException: For input string: "1asda"
+2019-10-30 14:19:56.997 fty [http-nio-8081-exec-1] ERROR n.h.c.exception.AllControllerAdvice - 数据转换异常：Failed to convert value of type 'java.lang.String' to required type 'int'; nested exception is java.lang.NumberFormatException: For input string: "1asda"
+2019-10-30 14:23:16.341 fty [http-nio-8081-exec-1] ERROR n.h.c.exception.AllControllerAdvice - 数据转换异常：Failed to convert value of type 'java.lang.String' to required type 'int'; nested exception is java.lang.NumberFormatException: For input string: "1asda"
+2019-10-30 14:23:57.575 fty [http-nio-8081-exec-6] ERROR net.hzsec.config.shiro.JwtAuthFilter - token为空-createToken method implementation returned null. A valid non-null AuthenticationToken must be created in order to execute a login attempt.
+2019-10-30 14:26:27.193 fty [http-nio-8081-exec-9] ERROR net.hzsec.config.shiro.JwtAuthFilter - token为空-createToken method implementation returned null. A valid non-null AuthenticationToken must be created in order to execute a login attempt.
+2019-10-30 14:26:49.809 fty [http-nio-8081-exec-6] ERROR net.hzsec.config.shiro.JwtAuthFilter - token为空-createToken method implementation returned null. A valid non-null AuthenticationToken must be created in order to execute a login attempt.
+2019-10-30 14:27:16.716 fty [http-nio-8081-exec-9] ERROR net.hzsec.config.shiro.JwtAuthFilter - token为空-createToken method implementation returned null. A valid non-null AuthenticationToken must be created in order to execute a login attempt.
+2019-10-30 14:29:56.940 fty [http-nio-8081-exec-5] ERROR net.hzsec.config.shiro.JwtAuthFilter - token为空-createToken method implementation returned null. A valid non-null AuthenticationToken must be created in order to execute a login attempt.
+2019-10-30 14:30:38.173 fty [http-nio-8081-exec-1] ERROR net.hzsec.config.shiro.JwtAuthFilter - token为空-createToken method implementation returned null. A valid non-null AuthenticationToken must be created in order to execute a login attempt.
+2019-10-30 14:32:30.796 fty [http-nio-8081-exec-2] ERROR net.hzsec.config.shiro.JwtAuthFilter - token为空-createToken method implementation returned null. A valid non-null AuthenticationToken must be created in order to execute a login attempt.
+2019-10-30 14:39:32.412 fty [http-nio-8081-exec-8] ERROR net.hzsec.config.shiro.JwtAuthFilter - token为空-createToken method implementation returned null. A valid non-null AuthenticationToken must be created in order to execute a login attempt.
+2019-10-30 14:42:09.782 fty [http-nio-8081-exec-3] ERROR net.hzsec.config.shiro.JwtAuthFilter - token为空-createToken method implementation returned null. A valid non-null AuthenticationToken must be created in order to execute a login attempt.
+2019-10-30 14:46:01.130 fty [http-nio-8081-exec-1] ERROR net.hzsec.config.shiro.JwtAuthFilter - token为空-createToken method implementation returned null. A valid non-null AuthenticationToken must be created in order to execute a login attempt.
+2019-10-30 14:46:46.665 fty [http-nio-8081-exec-2] ERROR net.hzsec.config.shiro.JwtAuthFilter - token为空-createToken method implementation returned null. A valid non-null AuthenticationToken must be created in order to execute a login attempt.
+2019-10-30 14:47:40.435 fty [http-nio-8081-exec-1] ERROR net.hzsec.config.shiro.JwtAuthFilter - Error occurs when login
+java.lang.IllegalArgumentException: Method argument (authentication token) cannot be null.
+	at org.apache.shiro.authc.AbstractAuthenticator.authenticate(AbstractAuthenticator.java:191)
+	at org.apache.shiro.mgt.AuthenticatingSecurityManager.authenticate(AuthenticatingSecurityManager.java:106)
+	at org.apache.shiro.mgt.DefaultSecurityManager.login(DefaultSecurityManager.java:274)
+	at org.apache.shiro.subject.support.DelegatingSubject.login(DelegatingSubject.java:260)
+	at net.hzsec.config.shiro.JwtAuthFilter.executeLogin(JwtAuthFilter.java:43)
+	at net.hzsec.config.shiro.JwtAuthFilter.isAccessAllowed(JwtAuthFilter.java:101)
+	at org.apache.shiro.web.filter.AccessControlFilter.onPreHandle(AccessControlFilter.java:162)
+	at org.apache.shiro.web.filter.PathMatchingFilter.isFilterChainContinued(PathMatchingFilter.java:203)
+	at org.apache.shiro.web.filter.PathMatchingFilter.preHandle(PathMatchingFilter.java:178)
+	at net.hzsec.config.shiro.JwtAuthFilter.preHandle(JwtAuthFilter.java:74)
+	at org.apache.shiro.web.servlet.AdviceFilter.doFilterInternal(AdviceFilter.java:131)
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125)
+	at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:66)
+	at org.apache.shiro.web.servlet.AdviceFilter.executeChain(AdviceFilter.java:108)
+	at org.apache.shiro.web.servlet.AdviceFilter.doFilterInternal(AdviceFilter.java:137)
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125)
+	at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:66)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.executeChain(AbstractShiroFilter.java:449)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter$1.call(AbstractShiroFilter.java:365)
+	at org.apache.shiro.subject.support.SubjectCallable.doCall(SubjectCallable.java:90)
+	at org.apache.shiro.subject.support.SubjectCallable.call(SubjectCallable.java:83)
+	at org.apache.shiro.subject.support.DelegatingSubject.execute(DelegatingSubject.java:387)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.doFilterInternal(AbstractShiroFilter.java:362)
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:493)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:800)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:806)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1498)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2019-10-30 14:50:14.104 fty [http-nio-8081-exec-1] ERROR net.hzsec.config.shiro.JwtAuthFilter - token为空-token为空
+2019-10-30 14:54:56.186 fty [http-nio-8081-exec-2] ERROR net.hzsec.config.shiro.JwtAuthFilter - Validate token fail, token:JWTToken(token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1NzI1MDQ3MTgsImlhdCI6MTU3MjQxODMxOCwidXNlcm5hbWUiOiJhZG1pbiJ9.D5Qko8atcs_XO90yRT8DMORFg-FC4kJQcy08NZJkSf), error:Authentication token of type [class net.hzsec.config.shiro.JWTToken] could not be authenticated by any configured realms.  Please ensure that at least one realm can authenticate these tokens.
+2019-10-30 14:55:51.155 fty [http-nio-8081-exec-3] ERROR net.hzsec.config.shiro.JwtAuthFilter - Validate token fail, token:JWTToken(token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1NzI1MDQ3MTgsImlhdCI6MTU3MjQxODMxOCwidXNlcm5hbWUiOiJhZG1pbiJ9.D5Qko8atcs_XO90yRT8DMORFg-FC4kJQcy08NZJkSf), error:Authentication token of type [class net.hzsec.config.shiro.JWTToken] could not be authenticated by any configured realms.  Please ensure that at least one realm can authenticate these tokens.
+2019-10-30 14:57:45.940 fty [http-nio-8081-exec-4] ERROR net.hzsec.config.shiro.JwtAuthFilter - Validate token fail, token:JWTToken(token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1NzI1MDQ3MTgsImlhdCI6MTU3MjQxODMxOCwidXNlcm5hbWUiOiJhZG1pbiJ9.D5Qko8atcs_XO90yRT8DMORFg-FC4kJQcy08NZJkSf), error:Authentication token of type [class net.hzsec.config.shiro.JWTToken] could not be authenticated by any configured realms.  Please ensure that at least one realm can authenticate these tokens.
+2019-10-30 15:08:56.787 fty [http-nio-8081-exec-1] ERROR net.hzsec.config.shiro.JwtAuthFilter - Validate token fail, token:JWTToken(token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1NzI1MDQ3MTgsImlhdCI6MTU3MjQxODMxOCwidXNlcm5hbWUiOiJhZG1pbiJ9.D5Qko8atcs_XO90yRT8DMORFg-FC4kJQcy08NZJkSf), error:Authentication token of type [class net.hzsec.config.shiro.JWTToken] could not be authenticated by any configured realms.  Please ensure that at least one realm can authenticate these tokens.
+2019-10-30 15:10:08.698 fty [http-nio-8081-exec-3] ERROR net.hzsec.config.shiro.JwtAuthFilter - Validate token fail, token:JWTToken(token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1NzI1MDQ3MTgsImlhdCI6MTU3MjQxODMxOCwidXNlcm5hbWUiOiJhZG1pbiJ9.D5Qko8atcs_XO90yRT8DMORFg-FC4kJQcy08NZJkSf), error:Authentication token of type [class net.hzsec.config.shiro.JWTToken] could not be authenticated by any configured realms.  Please ensure that at least one realm can authenticate these tokens.
+2019-10-30 15:12:04.010 fty [http-nio-8081-exec-1] ERROR net.hzsec.config.shiro.JwtAuthFilter - Validate token fail, token:JWTToken(token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1NzI1MDQ3MTgsImlhdCI6MTU3MjQxODMxOCwidXNlcm5hbWUiOiJhZG1pbiJ9.D5Qko8atcs_XO90yRT8DMORFg-FC4kJQcy08NZJkSf), error:Authentication token of type [class net.hzsec.config.shiro.JWTToken] could not be authenticated by any configured realms.  Please ensure that at least one realm can authenticate these tokens.
+2019-10-30 15:15:29.218 fty [http-nio-8081-exec-3] ERROR net.hzsec.config.shiro.JwtAuthFilter - Validate token fail, token:JWTToken(token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1NzI1MDQ3MTgsImlhdCI6MTU3MjQxODMxOCwidXNlcm5hbWUiOiJhZG1pbiJ9.D5Qko8atcs_XO90yRT8DMORFg-FC4kJQcy08NZJkSf), error:Authentication token of type [class net.hzsec.config.shiro.JWTToken] could not be authenticated by any configured realms.  Please ensure that at least one realm can authenticate these tokens.
+2019-10-30 15:19:58.186 fty [http-nio-8081-exec-5] ERROR net.hzsec.web.login.LoginController - User admin login fail, Reason:Authentication token of type [class org.apache.shiro.authc.UsernamePasswordToken] could not be authenticated by any configured realms.  Please ensure that at least one realm can authenticate these tokens.
+2019-10-30 15:22:14.034 fty [http-nio-8081-exec-1] ERROR net.hzsec.web.login.LoginController - User admin login fail, Reason:Submitted credentials for token [org.apache.shiro.authc.UsernamePasswordToken - admin, rememberMe=false] did not match the expected credentials.
+2019-10-30 15:22:16.690 fty [http-nio-8081-exec-2] ERROR net.hzsec.web.login.LoginController - User admin login fail, Reason:Submitted credentials for token [org.apache.shiro.authc.UsernamePasswordToken - admin, rememberMe=false] did not match the expected credentials.
+2019-10-30 15:23:39.186 fty [http-nio-8081-exec-3] ERROR net.hzsec.web.login.LoginController - User admin login fail, Reason:Submitted credentials for token [org.apache.shiro.authc.UsernamePasswordToken - admin, rememberMe=false] did not match the expected credentials.
+2019-10-30 15:26:05.010 fty [http-nio-8081-exec-4] ERROR net.hzsec.web.login.LoginController - User dmin login fail, Reason:Realm [net.hzsec.config.shiro.DbShiroRealm@6d2a9b9] was unable to find account data for the submitted AuthenticationToken [org.apache.shiro.authc.UsernamePasswordToken - dmin, rememberMe=false].
+2019-10-30 15:26:37.833 fty [http-nio-8081-exec-1] ERROR net.hzsec.web.login.LoginController - User dmin login fail, Reason:账号吧坠
+2019-10-30 15:28:52.439 fty [http-nio-8081-exec-1] ERROR net.hzsec.web.login.LoginController - User superAdmin login fail, Reason:Authentication failed for token submission [org.apache.shiro.authc.UsernamePasswordToken - superAdmin, rememberMe=false].  Possible unexpected error? (Typical or expected login exceptions should extend from AuthenticationException).
+2019-10-30 15:29:53.761 fty [http-nio-8081-exec-1] ERROR net.hzsec.web.login.LoginController - User superAdmin login fail, Reason:账号被封禁！
+2019-10-30 15:32:08.391 fty [http-nio-8081-exec-1] ERROR n.h.c.exception.AllControllerAdvice - 数据转换异常：账号被封禁！
+2019-10-30 15:32:35.461 fty [http-nio-8081-exec-2] ERROR n.h.c.exception.AllControllerAdvice - 数据转换异常：账号被封禁！
+2019-10-30 15:32:36.857 fty [http-nio-8081-exec-3] ERROR n.h.c.exception.AllControllerAdvice - 数据转换异常：账号被封禁！
+2019-10-30 15:32:49.501 fty [http-nio-8081-exec-4] ERROR n.h.c.exception.AllControllerAdvice - 数据转换异常：Submitted credentials for token [org.apache.shiro.authc.UsernamePasswordToken - admin, rememberMe=false] did not match the expected credentials.
+2019-10-30 15:33:04.571 fty [http-nio-8081-exec-6] ERROR n.h.c.exception.AllControllerAdvice - 数据转换异常：Submitted credentials for token [org.apache.shiro.authc.UsernamePasswordToken - admin, rememberMe=false] did not match the expected credentials.
+2019-10-30 15:49:33.163 fty [http-nio-8081-exec-7] ERROR n.h.c.exception.AllControllerAdvice - 数据转换异常：Realm [net.hzsec.config.shiro.DbShiroRealm@17d385ca] was unable to find account data for the submitted AuthenticationToken [org.apache.shiro.authc.UsernamePasswordToken - amin, rememberMe=false].
+2019-10-30 16:02:56.305 fty [http-nio-8081-exec-1] ERROR n.h.c.exception.AllControllerAdvice - 接口出现严重异常：Invalid mime type "utf-8": does not contain '/'

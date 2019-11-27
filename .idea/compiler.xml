@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="fty_persistence" />
+        <module name="fty_common" />
+        <module name="fty_service" />
+        <module name="fty_web" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="fty_common" options="-parameters" />
+      <module name="fty_persistence" options="-parameters" />
+      <module name="fty_service" options="-parameters" />
+      <module name="fty_web" options="-parameters" />
+    </option>
+  </component>
+</project>

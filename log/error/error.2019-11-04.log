@@ -1,0 +1,9 @@
+2019-11-04 16:02:16.427 fty [http-nio-8081-exec-1] ERROR net.hzsec.config.shiro.JwtAuthFilter - token为空-token is null
+2019-11-04 16:02:16.492 fty [http-nio-8081-exec-2] ERROR net.hzsec.config.shiro.JwtAuthFilter - token为空-token is null
+2019-11-04 16:02:16.537 fty [http-nio-8081-exec-3] ERROR net.hzsec.config.shiro.JwtAuthFilter - token为空-token is null
+2019-11-04 16:02:32.066 fty [http-nio-8081-exec-4] ERROR net.hzsec.config.shiro.JwtAuthFilter - token为空-token is null
+2019-11-04 16:02:32.117 fty [http-nio-8081-exec-5] ERROR net.hzsec.config.shiro.JwtAuthFilter - token为空-token is null
+2019-11-04 16:02:32.152 fty [http-nio-8081-exec-6] ERROR net.hzsec.config.shiro.JwtAuthFilter - token为空-token is null
+2019-11-04 16:03:26.637 fty [http-nio-8081-exec-7] ERROR net.hzsec.config.shiro.JwtAuthFilter - token为空-token is null
+2019-11-04 16:03:28.748 fty [http-nio-8081-exec-8] ERROR net.hzsec.config.shiro.JwtAuthFilter - token为空-token is null
+2019-11-04 16:04:24.330 fty [http-nio-8081-exec-10] ERROR net.hzsec.config.shiro.JwtAuthFilter - token为空-token is null

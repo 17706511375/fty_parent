@@ -1,0 +1,481 @@
+2019-11-08 09:30:09.393 fty [main] INFO  net.hzsec.FtyApplicationTest - Starting FtyApplicationTest on DESKTOP-A180TDM with PID 25920 (started by think in C:\Users\think\IdeaProjects\fty_parent\fty_web)
+2019-11-08 09:30:09.393 fty [main] INFO  net.hzsec.FtyApplicationTest - The following profiles are active: dev
+2019-11-08 09:30:09.502 fty [main] INFO  o.s.w.c.s.GenericWebApplicationContext - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@6928f576: startup date [Fri Nov 08 09:30:09 CST 2019]; root of context hierarchy
+2019-11-08 09:30:11.830 fty [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-11-08 09:30:12.720 fty [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$cc950c39] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-08 09:30:12.954 fty [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'shiroConfig' of type [net.hzsec.config.shiro.ShiroConfig$$EnhancerBySpringCGLIB$$2454fea8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-08 09:30:13.657 fty [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.boot.context.properties.ConversionServiceDeducer$Factory' of type [org.springframework.boot.context.properties.ConversionServiceDeducer$Factory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-08 09:30:13.673 fty [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'mybatis-plus-com.baomidou.mybatisplus.spring.boot.starter.MybatisPlusProperties' of type [com.baomidou.mybatisplus.spring.boot.starter.MybatisPlusProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-08 09:30:13.673 fty [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'mybatisPlusConfig' of type [net.hzsec.config.mybaties.MybatisPlusConfig$$EnhancerBySpringCGLIB$$db4bc799] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-08 09:30:13.720 fty [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'paginationInterceptor' of type [com.baomidou.mybatisplus.plugins.PaginationInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-08 09:30:13.720 fty [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.baomidou.mybatisplus.spring.boot.starter.MybatisPlusAutoConfiguration' of type [com.baomidou.mybatisplus.spring.boot.starter.MybatisPlusAutoConfiguration$$EnhancerBySpringCGLIB$$1a34aa96] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-08 09:30:13.735 fty [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Generic' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Generic] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-08 09:30:13.782 fty [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-08 09:30:13.923 fty [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'dataSource' of type [com.alibaba.druid.pool.DruidDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-08 09:30:13.938 fty [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-08 09:30:14.220 fty [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-11-08 09:30:15.048 fty [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'sqlSessionFactory' of type [org.apache.ibatis.session.defaults.DefaultSqlSessionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-08 09:30:15.063 fty [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'sqlSessionTemplate' of type [org.mybatis.spring.SqlSessionTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-08 09:30:15.063 fty [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'userMapper' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-08 09:30:15.079 fty [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'userMapper' of type [com.sun.proxy.$Proxy106] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-08 09:30:15.079 fty [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'userServiceImpl' of type [net.hzsec.service.impl.UserServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-08 09:30:15.141 fty [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'jwtShiroRealm' of type [net.hzsec.config.shiro.ShiroRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-08 09:30:15.141 fty [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'dbShiroRealm' of type [net.hzsec.config.shiro.DbShiroRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-08 09:30:15.157 fty [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-08 09:30:15.204 fty [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'shiroFilterChainDefinition' of type [org.apache.shiro.spring.web.config.DefaultShiroFilterChainDefinition] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-08 09:30:15.251 fty [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$4c15596b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-08 09:30:16.125 fty [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/login/login],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Void> net.hzsec.web.login.LoginController.login(net.hzsec.entity.system.User)
+2019-11-08 09:30:16.125 fty [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/role/insert],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.String> net.hzsec.web.system.RoleController.insert(net.hzsec.entity.system.Role) throws net.hzsec.config.exception.BusinessException
+2019-11-08 09:30:16.141 fty [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/insert],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.String> net.hzsec.web.system.UserController.insert(net.hzsec.entity.system.User)
+2019-11-08 09:30:16.141 fty [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/info],methods=[GET]}" onto public org.springframework.http.ResponseEntity<net.hzsec.entity.system.User> net.hzsec.web.system.UserController.insert(java.lang.String)
+2019-11-08 09:30:16.141 fty [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/getUser/{userId}],methods=[GET]}" onto public org.springframework.http.ResponseEntity<net.hzsec.entity.system.User> net.hzsec.web.system.UserController.getUser(int)
+2019-11-08 09:30:16.141 fty [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/userRole/insert],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.String> net.hzsec.web.system.UserRoleController.insert(net.hzsec.entity.system.UserRole)
+2019-11-08 09:30:16.141 fty [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v2/api-docs],methods=[GET]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String)
+2019-11-08 09:30:16.141 fty [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/configuration/security]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2019-11-08 09:30:16.141 fty [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/configuration/ui]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2019-11-08 09:30:16.141 fty [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/swagger-resources]}" onto org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2019-11-08 09:30:16.141 fty [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-11-08 09:30:16.157 fty [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-11-08 09:30:16.719 fty [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-11-08 09:30:17.156 fty [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@6928f576: startup date [Fri Nov 08 09:30:09 CST 2019]; root of context hierarchy
+2019-11-08 09:30:17.156 fty [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Detected @ModelAttribute methods in allControllerAdvice
+2019-11-08 09:30:17.156 fty [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Detected @InitBinder methods in allControllerAdvice
+2019-11-08 09:30:17.235 fty [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-11-08 09:30:17.235 fty [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-11-08 09:30:17.250 fty [main] INFO  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Detected @ExceptionHandler methods in allControllerAdvice
+2019-11-08 09:30:18.203 fty [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2019-11-08 09:30:18.250 fty [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found {0} custom documentation plugin(s)
+2019-11-08 09:30:18.250 fty [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2019-11-08 09:30:18.266 fty [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method login was 用户登陆
+2019-11-08 09:30:18.281 fty [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Request mapping: login belongs to groups: [[ResourceGroup{groupName='用户登陆', position=0, controller=net.hzsec.web.login.LoginController}]] 
+2019-11-08 09:30:18.281 fty [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method insert was 角色管理
+2019-11-08 09:30:18.281 fty [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Request mapping: insert belongs to groups: [[ResourceGroup{groupName='角色管理', position=0, controller=net.hzsec.web.system.RoleController}]] 
+2019-11-08 09:30:18.281 fty [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method getUser was 后台用户
+2019-11-08 09:30:18.281 fty [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Request mapping: getUser belongs to groups: [[ResourceGroup{groupName='后台用户', position=0, controller=net.hzsec.web.system.UserController}]] 
+2019-11-08 09:30:18.281 fty [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method insert was 后台用户
+2019-11-08 09:30:18.281 fty [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Request mapping: insert belongs to groups: [[ResourceGroup{groupName='后台用户', position=0, controller=net.hzsec.web.system.UserController}]] 
+2019-11-08 09:30:18.281 fty [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method insert was 后台用户
+2019-11-08 09:30:18.281 fty [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Request mapping: insert belongs to groups: [[ResourceGroup{groupName='后台用户', position=0, controller=net.hzsec.web.system.UserController}]] 
+2019-11-08 09:30:18.281 fty [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method insert was 用户角色管理
+2019-11-08 09:30:18.281 fty [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Request mapping: insert belongs to groups: [[ResourceGroup{groupName='用户角色管理', position=0, controller=net.hzsec.web.system.UserRoleController}]] 
+2019-11-08 09:30:18.281 fty [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Created resource listing Path: /v1/角色管理 Description: 角色管理 Position: 0
+2019-11-08 09:30:18.281 fty [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Created resource listing Path: /v1/用户角色管理 Description: 用户角色管理 Position: 0
+2019-11-08 09:30:18.281 fty [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Created resource listing Path: /v1/后台用户 Description: 后台用户 Position: 0
+2019-11-08 09:30:18.281 fty [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Created resource listing Path: /v1/用户登陆 Description: 用户登陆 Position: 0
+2019-11-08 09:30:18.328 fty [main] INFO  s.d.schema.ModelContextKeyGenerator - Cache Key Generated: net.hzsec.entity.system.User(true)
+2019-11-08 09:30:18.328 fty [main] INFO  s.d.spring.web.caching.CachingAspect - Caching aspect applied for cache models with key net.hzsec.entity.system.User(true)
+2019-11-08 09:30:18.328 fty [main] INFO  s.d.s.p.ModelPropertiesKeyGenerator - Cache key generated: net.hzsec.entity.system.User(true)
+2019-11-08 09:30:18.328 fty [main] INFO  s.d.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key net.hzsec.entity.system.User(true)
+2019-11-08 09:30:18.391 fty [main] INFO  s.d.schema.ModelContextKeyGenerator - Cache Key Generated: net.hzsec.entity.system.User(true)
+2019-11-08 09:30:18.391 fty [main] INFO  s.d.spring.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key net.hzsec.entity.system.User(true)
+2019-11-08 09:30:18.391 fty [main] INFO  s.d.s.p.ModelPropertiesKeyGenerator - Cache key generated: net.hzsec.entity.system.User(true)
+2019-11-08 09:30:18.391 fty [main] INFO  s.d.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key net.hzsec.entity.system.User(true)
+2019-11-08 09:30:18.391 fty [main] INFO  s.d.s.p.ModelPropertiesKeyGenerator - Cache key generated: net.hzsec.entity.system.Role(true)
+2019-11-08 09:30:18.391 fty [main] INFO  s.d.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key net.hzsec.entity.system.Role(true)
+2019-11-08 09:30:18.406 fty [main] INFO  s.d.s.p.ModelPropertiesKeyGenerator - Cache key generated: net.hzsec.entity.system.Role(true)
+2019-11-08 09:30:18.406 fty [main] INFO  s.d.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key net.hzsec.entity.system.Role(true)
+2019-11-08 09:30:18.406 fty [main] INFO  s.d.s.web.OperationsKeyGenerator - Cache key generated: /user/getUser/{userId}.net.hzsec.web.system.UserController.getUser.DefaultGenericTypeNamingStrategy
+2019-11-08 09:30:18.406 fty [main] INFO  s.d.spring.web.caching.CachingAspect - Caching aspect applied for cache operations with key /user/getUser/{userId}.net.hzsec.web.system.UserController.getUser.DefaultGenericTypeNamingStrategy
+2019-11-08 09:30:18.422 fty [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method getUser was 后台用户
+2019-11-08 09:30:18.469 fty [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method getUser was 后台用户
+2019-11-08 09:30:18.484 fty [main] INFO  s.d.schema.ModelContextKeyGenerator - Cache Key Generated: net.hzsec.entity.system.User(true)
+2019-11-08 09:30:18.484 fty [main] INFO  s.d.spring.web.caching.CachingAspect - Caching aspect applied for cache models with key net.hzsec.entity.system.User(true)
+2019-11-08 09:30:18.484 fty [main] INFO  s.d.schema.ModelContextKeyGenerator - Cache Key Generated: net.hzsec.entity.system.User(true)
+2019-11-08 09:30:18.484 fty [main] INFO  s.d.spring.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key net.hzsec.entity.system.User(true)
+2019-11-08 09:30:18.484 fty [main] INFO  s.d.s.p.ModelPropertiesKeyGenerator - Cache key generated: net.hzsec.entity.system.Role(true)
+2019-11-08 09:30:18.484 fty [main] INFO  s.d.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key net.hzsec.entity.system.Role(true)
+2019-11-08 09:30:18.484 fty [main] INFO  s.d.s.web.OperationsKeyGenerator - Cache key generated: /user/info.net.hzsec.web.system.UserController.insert.DefaultGenericTypeNamingStrategy
+2019-11-08 09:30:18.484 fty [main] INFO  s.d.spring.web.caching.CachingAspect - Caching aspect applied for cache operations with key /user/info.net.hzsec.web.system.UserController.insert.DefaultGenericTypeNamingStrategy
+2019-11-08 09:30:18.484 fty [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method insert was 后台用户
+2019-11-08 09:30:18.484 fty [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method insert was 后台用户
+2019-11-08 09:30:18.484 fty [main] INFO  s.d.schema.ModelContextKeyGenerator - Cache Key Generated: java.lang.String(true)
+2019-11-08 09:30:18.484 fty [main] INFO  s.d.spring.web.caching.CachingAspect - Caching aspect applied for cache models with key java.lang.String(true)
+2019-11-08 09:30:18.484 fty [main] INFO  s.d.schema.ModelContextKeyGenerator - Cache Key Generated: java.lang.String(true)
+2019-11-08 09:30:18.484 fty [main] INFO  s.d.spring.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key java.lang.String(true)
+2019-11-08 09:30:18.484 fty [main] INFO  s.d.schema.ModelContextKeyGenerator - Cache Key Generated: net.hzsec.entity.system.User(false)
+2019-11-08 09:30:18.484 fty [main] INFO  s.d.spring.web.caching.CachingAspect - Caching aspect applied for cache models with key net.hzsec.entity.system.User(false)
+2019-11-08 09:30:18.484 fty [main] INFO  s.d.s.p.ModelPropertiesKeyGenerator - Cache key generated: net.hzsec.entity.system.User(false)
+2019-11-08 09:30:18.484 fty [main] INFO  s.d.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key net.hzsec.entity.system.User(false)
+2019-11-08 09:30:18.500 fty [main] INFO  s.d.schema.ModelContextKeyGenerator - Cache Key Generated: net.hzsec.entity.system.User(false)
+2019-11-08 09:30:18.500 fty [main] INFO  s.d.spring.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key net.hzsec.entity.system.User(false)
+2019-11-08 09:30:18.500 fty [main] INFO  s.d.s.p.ModelPropertiesKeyGenerator - Cache key generated: net.hzsec.entity.system.User(false)
+2019-11-08 09:30:18.500 fty [main] INFO  s.d.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key net.hzsec.entity.system.User(false)
+2019-11-08 09:30:18.500 fty [main] INFO  s.d.s.p.ModelPropertiesKeyGenerator - Cache key generated: net.hzsec.entity.system.Role(false)
+2019-11-08 09:30:18.500 fty [main] INFO  s.d.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key net.hzsec.entity.system.Role(false)
+2019-11-08 09:30:18.500 fty [main] INFO  s.d.s.p.ModelPropertiesKeyGenerator - Cache key generated: net.hzsec.entity.system.Role(false)
+2019-11-08 09:30:18.500 fty [main] INFO  s.d.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key net.hzsec.entity.system.Role(false)
+2019-11-08 09:30:18.500 fty [main] INFO  s.d.s.web.OperationsKeyGenerator - Cache key generated: /user/insert.net.hzsec.web.system.UserController.insert.DefaultGenericTypeNamingStrategy
+2019-11-08 09:30:18.500 fty [main] INFO  s.d.spring.web.caching.CachingAspect - Caching aspect applied for cache operations with key /user/insert.net.hzsec.web.system.UserController.insert.DefaultGenericTypeNamingStrategy
+2019-11-08 09:30:18.500 fty [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method insert was 后台用户
+2019-11-08 09:30:18.500 fty [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method insert was 后台用户
+2019-11-08 09:30:18.500 fty [main] INFO  s.d.schema.ModelContextKeyGenerator - Cache Key Generated: java.lang.Void(true)
+2019-11-08 09:30:18.500 fty [main] INFO  s.d.spring.web.caching.CachingAspect - Caching aspect applied for cache models with key java.lang.Void(true)
+2019-11-08 09:30:18.500 fty [main] INFO  s.d.schema.ModelContextKeyGenerator - Cache Key Generated: java.lang.Void(true)
+2019-11-08 09:30:18.500 fty [main] INFO  s.d.spring.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key java.lang.Void(true)
+2019-11-08 09:30:18.516 fty [main] INFO  s.d.schema.ModelContextKeyGenerator - Cache Key Generated: net.hzsec.entity.system.User(false)
+2019-11-08 09:30:18.516 fty [main] INFO  s.d.spring.web.caching.CachingAspect - Caching aspect applied for cache models with key net.hzsec.entity.system.User(false)
+2019-11-08 09:30:18.516 fty [main] INFO  s.d.schema.ModelContextKeyGenerator - Cache Key Generated: net.hzsec.entity.system.User(false)
+2019-11-08 09:30:18.516 fty [main] INFO  s.d.spring.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key net.hzsec.entity.system.User(false)
+2019-11-08 09:30:18.516 fty [main] INFO  s.d.s.p.ModelPropertiesKeyGenerator - Cache key generated: net.hzsec.entity.system.Role(false)
+2019-11-08 09:30:18.516 fty [main] INFO  s.d.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key net.hzsec.entity.system.Role(false)
+2019-11-08 09:30:18.516 fty [main] INFO  s.d.s.web.OperationsKeyGenerator - Cache key generated: /login/login.net.hzsec.web.login.LoginController.login.DefaultGenericTypeNamingStrategy
+2019-11-08 09:30:18.516 fty [main] INFO  s.d.spring.web.caching.CachingAspect - Caching aspect applied for cache operations with key /login/login.net.hzsec.web.login.LoginController.login.DefaultGenericTypeNamingStrategy
+2019-11-08 09:30:18.516 fty [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method login was 用户登陆
+2019-11-08 09:30:18.516 fty [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method login was 用户登陆
+2019-11-08 09:30:18.516 fty [main] INFO  s.d.schema.ModelContextKeyGenerator - Cache Key Generated: java.lang.String(true)
+2019-11-08 09:30:18.516 fty [main] INFO  s.d.spring.web.caching.CachingAspect - Caching aspect applied for cache models with key java.lang.String(true)
+2019-11-08 09:30:18.516 fty [main] INFO  s.d.schema.ModelContextKeyGenerator - Cache Key Generated: java.lang.String(true)
+2019-11-08 09:30:18.516 fty [main] INFO  s.d.spring.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key java.lang.String(true)
+2019-11-08 09:30:18.516 fty [main] INFO  s.d.schema.ModelContextKeyGenerator - Cache Key Generated: net.hzsec.entity.system.UserRole(false)
+2019-11-08 09:30:18.516 fty [main] INFO  s.d.spring.web.caching.CachingAspect - Caching aspect applied for cache models with key net.hzsec.entity.system.UserRole(false)
+2019-11-08 09:30:18.516 fty [main] INFO  s.d.s.p.ModelPropertiesKeyGenerator - Cache key generated: net.hzsec.entity.system.UserRole(false)
+2019-11-08 09:30:18.516 fty [main] INFO  s.d.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key net.hzsec.entity.system.UserRole(false)
+2019-11-08 09:30:18.516 fty [main] INFO  s.d.schema.ModelContextKeyGenerator - Cache Key Generated: net.hzsec.entity.system.UserRole(false)
+2019-11-08 09:30:18.516 fty [main] INFO  s.d.spring.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key net.hzsec.entity.system.UserRole(false)
+2019-11-08 09:30:18.516 fty [main] INFO  s.d.s.p.ModelPropertiesKeyGenerator - Cache key generated: net.hzsec.entity.system.UserRole(false)
+2019-11-08 09:30:18.516 fty [main] INFO  s.d.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key net.hzsec.entity.system.UserRole(false)
+2019-11-08 09:30:18.516 fty [main] INFO  s.d.s.web.OperationsKeyGenerator - Cache key generated: /userRole/insert.net.hzsec.web.system.UserRoleController.insert.DefaultGenericTypeNamingStrategy
+2019-11-08 09:30:18.516 fty [main] INFO  s.d.spring.web.caching.CachingAspect - Caching aspect applied for cache operations with key /userRole/insert.net.hzsec.web.system.UserRoleController.insert.DefaultGenericTypeNamingStrategy
+2019-11-08 09:30:18.516 fty [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method insert was 用户角色管理
+2019-11-08 09:30:18.516 fty [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method insert was 用户角色管理
+2019-11-08 09:30:18.516 fty [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: insertUsingPOST_1
+2019-11-08 09:30:18.531 fty [main] INFO  s.d.schema.ModelContextKeyGenerator - Cache Key Generated: java.lang.String(true)
+2019-11-08 09:30:18.531 fty [main] INFO  s.d.spring.web.caching.CachingAspect - Caching aspect applied for cache models with key java.lang.String(true)
+2019-11-08 09:30:18.531 fty [main] INFO  s.d.schema.ModelContextKeyGenerator - Cache Key Generated: java.lang.String(true)
+2019-11-08 09:30:18.531 fty [main] INFO  s.d.spring.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key java.lang.String(true)
+2019-11-08 09:30:18.531 fty [main] INFO  s.d.schema.ModelContextKeyGenerator - Cache Key Generated: net.hzsec.entity.system.Role(false)
+2019-11-08 09:30:18.531 fty [main] INFO  s.d.spring.web.caching.CachingAspect - Caching aspect applied for cache models with key net.hzsec.entity.system.Role(false)
+2019-11-08 09:30:18.531 fty [main] INFO  s.d.s.p.ModelPropertiesKeyGenerator - Cache key generated: net.hzsec.entity.system.Role(false)
+2019-11-08 09:30:18.531 fty [main] INFO  s.d.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key net.hzsec.entity.system.Role(false)
+2019-11-08 09:30:18.531 fty [main] INFO  s.d.schema.ModelContextKeyGenerator - Cache Key Generated: net.hzsec.entity.system.Role(false)
+2019-11-08 09:30:18.531 fty [main] INFO  s.d.spring.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key net.hzsec.entity.system.Role(false)
+2019-11-08 09:30:18.531 fty [main] INFO  s.d.s.p.ModelPropertiesKeyGenerator - Cache key generated: net.hzsec.entity.system.Role(false)
+2019-11-08 09:30:18.531 fty [main] INFO  s.d.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key net.hzsec.entity.system.Role(false)
+2019-11-08 09:30:18.531 fty [main] INFO  s.d.s.web.OperationsKeyGenerator - Cache key generated: /role/insert.net.hzsec.web.system.RoleController.insert.DefaultGenericTypeNamingStrategy
+2019-11-08 09:30:18.531 fty [main] INFO  s.d.spring.web.caching.CachingAspect - Caching aspect applied for cache operations with key /role/insert.net.hzsec.web.system.RoleController.insert.DefaultGenericTypeNamingStrategy
+2019-11-08 09:30:18.531 fty [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method insert was 角色管理
+2019-11-08 09:30:18.531 fty [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method insert was 角色管理
+2019-11-08 09:30:18.531 fty [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: insertUsingPOST_2
+2019-11-08 09:30:18.547 fty [main] INFO  net.hzsec.FtyApplicationTest - Started FtyApplicationTest in 10.31 seconds (JVM running for 15.139)
+2019-11-08 09:31:56.703 fty [Thread-2] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2019-11-08 09:34:07.799 fty [main] INFO  net.hzsec.FtyApplicationTest - Starting FtyApplicationTest on DESKTOP-A180TDM with PID 8408 (started by think in C:\Users\think\IdeaProjects\fty_parent\fty_web)
+2019-11-08 09:34:07.799 fty [main] INFO  net.hzsec.FtyApplicationTest - The following profiles are active: dev
+2019-11-08 09:34:07.846 fty [main] INFO  o.s.w.c.s.GenericWebApplicationContext - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@70dd7e15: startup date [Fri Nov 08 09:34:07 CST 2019]; root of context hierarchy
+2019-11-08 09:34:08.955 fty [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-11-08 09:34:09.533 fty [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$c8134f5f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-08 09:34:09.689 fty [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'shiroConfig' of type [net.hzsec.config.shiro.ShiroConfig$$EnhancerBySpringCGLIB$$1fd341ce] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-08 09:34:10.018 fty [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.boot.context.properties.ConversionServiceDeducer$Factory' of type [org.springframework.boot.context.properties.ConversionServiceDeducer$Factory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-08 09:34:10.033 fty [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'mybatis-plus-com.baomidou.mybatisplus.spring.boot.starter.MybatisPlusProperties' of type [com.baomidou.mybatisplus.spring.boot.starter.MybatisPlusProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-08 09:34:10.033 fty [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'mybatisPlusConfig' of type [net.hzsec.config.mybaties.MybatisPlusConfig$$EnhancerBySpringCGLIB$$d6ca0abf] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-08 09:34:10.049 fty [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'paginationInterceptor' of type [com.baomidou.mybatisplus.plugins.PaginationInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-08 09:34:10.049 fty [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.baomidou.mybatisplus.spring.boot.starter.MybatisPlusAutoConfiguration' of type [com.baomidou.mybatisplus.spring.boot.starter.MybatisPlusAutoConfiguration$$EnhancerBySpringCGLIB$$15b2edbc] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-08 09:34:10.064 fty [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Generic' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Generic] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-08 09:34:10.080 fty [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-08 09:34:10.142 fty [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'dataSource' of type [com.alibaba.druid.pool.DruidDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-08 09:34:10.174 fty [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-08 09:34:10.330 fty [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-11-08 09:34:10.799 fty [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'sqlSessionFactory' of type [org.apache.ibatis.session.defaults.DefaultSqlSessionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-08 09:34:10.814 fty [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'sqlSessionTemplate' of type [org.mybatis.spring.SqlSessionTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-08 09:34:10.814 fty [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'userMapper' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-08 09:34:10.814 fty [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'userMapper' of type [com.sun.proxy.$Proxy106] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-08 09:34:10.830 fty [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'userServiceImpl' of type [net.hzsec.service.impl.UserServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-08 09:34:10.861 fty [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'jwtShiroRealm' of type [net.hzsec.config.shiro.ShiroRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-08 09:34:10.877 fty [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'dbShiroRealm' of type [net.hzsec.config.shiro.DbShiroRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-08 09:34:10.908 fty [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-08 09:34:10.939 fty [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'shiroFilterChainDefinition' of type [org.apache.shiro.spring.web.config.DefaultShiroFilterChainDefinition] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-08 09:34:10.986 fty [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$47939c91] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-08 09:34:11.705 fty [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/login/login],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Void> net.hzsec.web.login.LoginController.login(net.hzsec.entity.system.User)
+2019-11-08 09:34:11.705 fty [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/role/insert],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.String> net.hzsec.web.system.RoleController.insert(net.hzsec.entity.system.Role) throws net.hzsec.config.exception.BusinessException
+2019-11-08 09:34:11.705 fty [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/insert],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.String> net.hzsec.web.system.UserController.insert(net.hzsec.entity.system.User)
+2019-11-08 09:34:11.705 fty [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/info],methods=[GET]}" onto public org.springframework.http.ResponseEntity<net.hzsec.entity.system.User> net.hzsec.web.system.UserController.insert(java.lang.String)
+2019-11-08 09:34:11.705 fty [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/getUser/{userId}],methods=[GET]}" onto public org.springframework.http.ResponseEntity<net.hzsec.entity.system.User> net.hzsec.web.system.UserController.getUser(int)
+2019-11-08 09:34:11.705 fty [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/userRole/insert],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.String> net.hzsec.web.system.UserRoleController.insert(net.hzsec.entity.system.UserRole)
+2019-11-08 09:34:11.705 fty [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v2/api-docs],methods=[GET]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String)
+2019-11-08 09:34:11.705 fty [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/configuration/ui]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2019-11-08 09:34:11.705 fty [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/swagger-resources]}" onto org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2019-11-08 09:34:11.705 fty [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/configuration/security]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2019-11-08 09:34:11.720 fty [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-11-08 09:34:11.720 fty [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-11-08 09:34:12.314 fty [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-11-08 09:34:12.658 fty [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@70dd7e15: startup date [Fri Nov 08 09:34:07 CST 2019]; root of context hierarchy
+2019-11-08 09:34:12.673 fty [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Detected @ModelAttribute methods in allControllerAdvice
+2019-11-08 09:34:12.673 fty [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Detected @InitBinder methods in allControllerAdvice
+2019-11-08 09:34:12.767 fty [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-11-08 09:34:12.767 fty [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-11-08 09:34:12.782 fty [main] INFO  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Detected @ExceptionHandler methods in allControllerAdvice
+2019-11-08 09:34:13.470 fty [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2019-11-08 09:34:13.501 fty [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found {0} custom documentation plugin(s)
+2019-11-08 09:34:13.501 fty [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2019-11-08 09:34:13.501 fty [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method login was 用户登陆
+2019-11-08 09:34:13.517 fty [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Request mapping: login belongs to groups: [[ResourceGroup{groupName='用户登陆', position=0, controller=net.hzsec.web.login.LoginController}]] 
+2019-11-08 09:34:13.517 fty [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method insert was 角色管理
+2019-11-08 09:34:13.517 fty [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Request mapping: insert belongs to groups: [[ResourceGroup{groupName='角色管理', position=0, controller=net.hzsec.web.system.RoleController}]] 
+2019-11-08 09:34:13.517 fty [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method getUser was 后台用户
+2019-11-08 09:34:13.517 fty [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Request mapping: getUser belongs to groups: [[ResourceGroup{groupName='后台用户', position=0, controller=net.hzsec.web.system.UserController}]] 
+2019-11-08 09:34:13.517 fty [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method insert was 后台用户
+2019-11-08 09:34:13.517 fty [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Request mapping: insert belongs to groups: [[ResourceGroup{groupName='后台用户', position=0, controller=net.hzsec.web.system.UserController}]] 
+2019-11-08 09:34:13.517 fty [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method insert was 后台用户
+2019-11-08 09:34:13.517 fty [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Request mapping: insert belongs to groups: [[ResourceGroup{groupName='后台用户', position=0, controller=net.hzsec.web.system.UserController}]] 
+2019-11-08 09:34:13.517 fty [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method insert was 用户角色管理
+2019-11-08 09:34:13.517 fty [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Request mapping: insert belongs to groups: [[ResourceGroup{groupName='用户角色管理', position=0, controller=net.hzsec.web.system.UserRoleController}]] 
+2019-11-08 09:34:13.517 fty [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Created resource listing Path: /v1/用户角色管理 Description: 用户角色管理 Position: 0
+2019-11-08 09:34:13.517 fty [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Created resource listing Path: /v1/用户登陆 Description: 用户登陆 Position: 0
+2019-11-08 09:34:13.517 fty [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Created resource listing Path: /v1/后台用户 Description: 后台用户 Position: 0
+2019-11-08 09:34:13.517 fty [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Created resource listing Path: /v1/角色管理 Description: 角色管理 Position: 0
+2019-11-08 09:34:13.532 fty [main] INFO  s.d.schema.ModelContextKeyGenerator - Cache Key Generated: net.hzsec.entity.system.User(true)
+2019-11-08 09:34:13.532 fty [main] INFO  s.d.spring.web.caching.CachingAspect - Caching aspect applied for cache models with key net.hzsec.entity.system.User(true)
+2019-11-08 09:34:13.548 fty [main] INFO  s.d.s.p.ModelPropertiesKeyGenerator - Cache key generated: net.hzsec.entity.system.User(true)
+2019-11-08 09:34:13.548 fty [main] INFO  s.d.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key net.hzsec.entity.system.User(true)
+2019-11-08 09:34:13.595 fty [main] INFO  s.d.schema.ModelContextKeyGenerator - Cache Key Generated: net.hzsec.entity.system.User(true)
+2019-11-08 09:34:13.595 fty [main] INFO  s.d.spring.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key net.hzsec.entity.system.User(true)
+2019-11-08 09:34:13.595 fty [main] INFO  s.d.s.p.ModelPropertiesKeyGenerator - Cache key generated: net.hzsec.entity.system.User(true)
+2019-11-08 09:34:13.595 fty [main] INFO  s.d.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key net.hzsec.entity.system.User(true)
+2019-11-08 09:34:13.595 fty [main] INFO  s.d.s.p.ModelPropertiesKeyGenerator - Cache key generated: net.hzsec.entity.system.Role(true)
+2019-11-08 09:34:13.595 fty [main] INFO  s.d.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key net.hzsec.entity.system.Role(true)
+2019-11-08 09:34:13.595 fty [main] INFO  s.d.s.p.ModelPropertiesKeyGenerator - Cache key generated: net.hzsec.entity.system.Role(true)
+2019-11-08 09:34:13.595 fty [main] INFO  s.d.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key net.hzsec.entity.system.Role(true)
+2019-11-08 09:34:13.595 fty [main] INFO  s.d.s.web.OperationsKeyGenerator - Cache key generated: /user/getUser/{userId}.net.hzsec.web.system.UserController.getUser.DefaultGenericTypeNamingStrategy
+2019-11-08 09:34:13.595 fty [main] INFO  s.d.spring.web.caching.CachingAspect - Caching aspect applied for cache operations with key /user/getUser/{userId}.net.hzsec.web.system.UserController.getUser.DefaultGenericTypeNamingStrategy
+2019-11-08 09:34:13.610 fty [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method getUser was 后台用户
+2019-11-08 09:34:13.626 fty [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method getUser was 后台用户
+2019-11-08 09:34:13.642 fty [main] INFO  s.d.schema.ModelContextKeyGenerator - Cache Key Generated: net.hzsec.entity.system.User(true)
+2019-11-08 09:34:13.642 fty [main] INFO  s.d.spring.web.caching.CachingAspect - Caching aspect applied for cache models with key net.hzsec.entity.system.User(true)
+2019-11-08 09:34:13.642 fty [main] INFO  s.d.schema.ModelContextKeyGenerator - Cache Key Generated: net.hzsec.entity.system.User(true)
+2019-11-08 09:34:13.642 fty [main] INFO  s.d.spring.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key net.hzsec.entity.system.User(true)
+2019-11-08 09:34:13.642 fty [main] INFO  s.d.s.p.ModelPropertiesKeyGenerator - Cache key generated: net.hzsec.entity.system.Role(true)
+2019-11-08 09:34:13.642 fty [main] INFO  s.d.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key net.hzsec.entity.system.Role(true)
+2019-11-08 09:34:13.642 fty [main] INFO  s.d.s.web.OperationsKeyGenerator - Cache key generated: /user/info.net.hzsec.web.system.UserController.insert.DefaultGenericTypeNamingStrategy
+2019-11-08 09:34:13.642 fty [main] INFO  s.d.spring.web.caching.CachingAspect - Caching aspect applied for cache operations with key /user/info.net.hzsec.web.system.UserController.insert.DefaultGenericTypeNamingStrategy
+2019-11-08 09:34:13.642 fty [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method insert was 后台用户
+2019-11-08 09:34:13.642 fty [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method insert was 后台用户
+2019-11-08 09:34:13.642 fty [main] INFO  s.d.schema.ModelContextKeyGenerator - Cache Key Generated: java.lang.String(true)
+2019-11-08 09:34:13.642 fty [main] INFO  s.d.spring.web.caching.CachingAspect - Caching aspect applied for cache models with key java.lang.String(true)
+2019-11-08 09:34:13.642 fty [main] INFO  s.d.schema.ModelContextKeyGenerator - Cache Key Generated: java.lang.String(true)
+2019-11-08 09:34:13.642 fty [main] INFO  s.d.spring.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key java.lang.String(true)
+2019-11-08 09:34:13.642 fty [main] INFO  s.d.schema.ModelContextKeyGenerator - Cache Key Generated: net.hzsec.entity.system.User(false)
+2019-11-08 09:34:13.642 fty [main] INFO  s.d.spring.web.caching.CachingAspect - Caching aspect applied for cache models with key net.hzsec.entity.system.User(false)
+2019-11-08 09:34:13.642 fty [main] INFO  s.d.s.p.ModelPropertiesKeyGenerator - Cache key generated: net.hzsec.entity.system.User(false)
+2019-11-08 09:34:13.642 fty [main] INFO  s.d.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key net.hzsec.entity.system.User(false)
+2019-11-08 09:34:13.657 fty [main] INFO  s.d.schema.ModelContextKeyGenerator - Cache Key Generated: net.hzsec.entity.system.User(false)
+2019-11-08 09:34:13.657 fty [main] INFO  s.d.spring.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key net.hzsec.entity.system.User(false)
+2019-11-08 09:34:13.657 fty [main] INFO  s.d.s.p.ModelPropertiesKeyGenerator - Cache key generated: net.hzsec.entity.system.User(false)
+2019-11-08 09:34:13.657 fty [main] INFO  s.d.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key net.hzsec.entity.system.User(false)
+2019-11-08 09:34:13.657 fty [main] INFO  s.d.s.p.ModelPropertiesKeyGenerator - Cache key generated: net.hzsec.entity.system.Role(false)
+2019-11-08 09:34:13.657 fty [main] INFO  s.d.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key net.hzsec.entity.system.Role(false)
+2019-11-08 09:34:13.657 fty [main] INFO  s.d.s.p.ModelPropertiesKeyGenerator - Cache key generated: net.hzsec.entity.system.Role(false)
+2019-11-08 09:34:13.657 fty [main] INFO  s.d.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key net.hzsec.entity.system.Role(false)
+2019-11-08 09:34:13.657 fty [main] INFO  s.d.s.web.OperationsKeyGenerator - Cache key generated: /user/insert.net.hzsec.web.system.UserController.insert.DefaultGenericTypeNamingStrategy
+2019-11-08 09:34:13.657 fty [main] INFO  s.d.spring.web.caching.CachingAspect - Caching aspect applied for cache operations with key /user/insert.net.hzsec.web.system.UserController.insert.DefaultGenericTypeNamingStrategy
+2019-11-08 09:34:13.657 fty [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method insert was 后台用户
+2019-11-08 09:34:13.657 fty [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method insert was 后台用户
+2019-11-08 09:34:13.657 fty [main] INFO  s.d.schema.ModelContextKeyGenerator - Cache Key Generated: java.lang.Void(true)
+2019-11-08 09:34:13.657 fty [main] INFO  s.d.spring.web.caching.CachingAspect - Caching aspect applied for cache models with key java.lang.Void(true)
+2019-11-08 09:34:13.657 fty [main] INFO  s.d.schema.ModelContextKeyGenerator - Cache Key Generated: java.lang.Void(true)
+2019-11-08 09:34:13.657 fty [main] INFO  s.d.spring.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key java.lang.Void(true)
+2019-11-08 09:34:13.657 fty [main] INFO  s.d.schema.ModelContextKeyGenerator - Cache Key Generated: net.hzsec.entity.system.User(false)
+2019-11-08 09:34:13.657 fty [main] INFO  s.d.spring.web.caching.CachingAspect - Caching aspect applied for cache models with key net.hzsec.entity.system.User(false)
+2019-11-08 09:34:13.657 fty [main] INFO  s.d.schema.ModelContextKeyGenerator - Cache Key Generated: net.hzsec.entity.system.User(false)
+2019-11-08 09:34:13.657 fty [main] INFO  s.d.spring.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key net.hzsec.entity.system.User(false)
+2019-11-08 09:34:13.657 fty [main] INFO  s.d.s.p.ModelPropertiesKeyGenerator - Cache key generated: net.hzsec.entity.system.Role(false)
+2019-11-08 09:34:13.657 fty [main] INFO  s.d.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key net.hzsec.entity.system.Role(false)
+2019-11-08 09:34:13.657 fty [main] INFO  s.d.s.web.OperationsKeyGenerator - Cache key generated: /login/login.net.hzsec.web.login.LoginController.login.DefaultGenericTypeNamingStrategy
+2019-11-08 09:34:13.657 fty [main] INFO  s.d.spring.web.caching.CachingAspect - Caching aspect applied for cache operations with key /login/login.net.hzsec.web.login.LoginController.login.DefaultGenericTypeNamingStrategy
+2019-11-08 09:34:13.657 fty [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method login was 用户登陆
+2019-11-08 09:34:13.657 fty [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method login was 用户登陆
+2019-11-08 09:34:13.673 fty [main] INFO  s.d.schema.ModelContextKeyGenerator - Cache Key Generated: java.lang.String(true)
+2019-11-08 09:34:13.673 fty [main] INFO  s.d.spring.web.caching.CachingAspect - Caching aspect applied for cache models with key java.lang.String(true)
+2019-11-08 09:34:13.673 fty [main] INFO  s.d.schema.ModelContextKeyGenerator - Cache Key Generated: java.lang.String(true)
+2019-11-08 09:34:13.673 fty [main] INFO  s.d.spring.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key java.lang.String(true)
+2019-11-08 09:34:13.673 fty [main] INFO  s.d.schema.ModelContextKeyGenerator - Cache Key Generated: net.hzsec.entity.system.UserRole(false)
+2019-11-08 09:34:13.673 fty [main] INFO  s.d.spring.web.caching.CachingAspect - Caching aspect applied for cache models with key net.hzsec.entity.system.UserRole(false)
+2019-11-08 09:34:13.673 fty [main] INFO  s.d.s.p.ModelPropertiesKeyGenerator - Cache key generated: net.hzsec.entity.system.UserRole(false)
+2019-11-08 09:34:13.673 fty [main] INFO  s.d.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key net.hzsec.entity.system.UserRole(false)
+2019-11-08 09:34:13.673 fty [main] INFO  s.d.schema.ModelContextKeyGenerator - Cache Key Generated: net.hzsec.entity.system.UserRole(false)
+2019-11-08 09:34:13.673 fty [main] INFO  s.d.spring.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key net.hzsec.entity.system.UserRole(false)
+2019-11-08 09:34:13.673 fty [main] INFO  s.d.s.p.ModelPropertiesKeyGenerator - Cache key generated: net.hzsec.entity.system.UserRole(false)
+2019-11-08 09:34:13.673 fty [main] INFO  s.d.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key net.hzsec.entity.system.UserRole(false)
+2019-11-08 09:34:13.673 fty [main] INFO  s.d.s.web.OperationsKeyGenerator - Cache key generated: /userRole/insert.net.hzsec.web.system.UserRoleController.insert.DefaultGenericTypeNamingStrategy
+2019-11-08 09:34:13.673 fty [main] INFO  s.d.spring.web.caching.CachingAspect - Caching aspect applied for cache operations with key /userRole/insert.net.hzsec.web.system.UserRoleController.insert.DefaultGenericTypeNamingStrategy
+2019-11-08 09:34:13.673 fty [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method insert was 用户角色管理
+2019-11-08 09:34:13.673 fty [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method insert was 用户角色管理
+2019-11-08 09:34:13.673 fty [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: insertUsingPOST_1
+2019-11-08 09:34:13.673 fty [main] INFO  s.d.schema.ModelContextKeyGenerator - Cache Key Generated: java.lang.String(true)
+2019-11-08 09:34:13.673 fty [main] INFO  s.d.spring.web.caching.CachingAspect - Caching aspect applied for cache models with key java.lang.String(true)
+2019-11-08 09:34:13.673 fty [main] INFO  s.d.schema.ModelContextKeyGenerator - Cache Key Generated: java.lang.String(true)
+2019-11-08 09:34:13.673 fty [main] INFO  s.d.spring.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key java.lang.String(true)
+2019-11-08 09:34:13.673 fty [main] INFO  s.d.schema.ModelContextKeyGenerator - Cache Key Generated: net.hzsec.entity.system.Role(false)
+2019-11-08 09:34:13.673 fty [main] INFO  s.d.spring.web.caching.CachingAspect - Caching aspect applied for cache models with key net.hzsec.entity.system.Role(false)
+2019-11-08 09:34:13.673 fty [main] INFO  s.d.s.p.ModelPropertiesKeyGenerator - Cache key generated: net.hzsec.entity.system.Role(false)
+2019-11-08 09:34:13.673 fty [main] INFO  s.d.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key net.hzsec.entity.system.Role(false)
+2019-11-08 09:34:13.673 fty [main] INFO  s.d.schema.ModelContextKeyGenerator - Cache Key Generated: net.hzsec.entity.system.Role(false)
+2019-11-08 09:34:13.673 fty [main] INFO  s.d.spring.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key net.hzsec.entity.system.Role(false)
+2019-11-08 09:34:13.673 fty [main] INFO  s.d.s.p.ModelPropertiesKeyGenerator - Cache key generated: net.hzsec.entity.system.Role(false)
+2019-11-08 09:34:13.673 fty [main] INFO  s.d.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key net.hzsec.entity.system.Role(false)
+2019-11-08 09:34:13.673 fty [main] INFO  s.d.s.web.OperationsKeyGenerator - Cache key generated: /role/insert.net.hzsec.web.system.RoleController.insert.DefaultGenericTypeNamingStrategy
+2019-11-08 09:34:13.673 fty [main] INFO  s.d.spring.web.caching.CachingAspect - Caching aspect applied for cache operations with key /role/insert.net.hzsec.web.system.RoleController.insert.DefaultGenericTypeNamingStrategy
+2019-11-08 09:34:13.673 fty [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method insert was 角色管理
+2019-11-08 09:34:13.673 fty [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method insert was 角色管理
+2019-11-08 09:34:13.673 fty [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: insertUsingPOST_2
+2019-11-08 09:34:13.704 fty [main] INFO  net.hzsec.FtyApplicationTest - Started FtyApplicationTest in 6.467 seconds (JVM running for 7.695)
+2019-11-08 09:35:17.642 fty [Thread-2] INFO  o.s.w.c.s.GenericWebApplicationContext - Closing org.springframework.web.context.support.GenericWebApplicationContext@70dd7e15: startup date [Fri Nov 08 09:34:07 CST 2019]; root of context hierarchy
+2019-11-08 09:35:17.642 fty [Thread-2] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2019-11-08 16:10:12.967 fty [main] INFO  net.hzsec.FtyApplicationTest - Starting FtyApplicationTest on DESKTOP-A180TDM with PID 38720 (started by think in C:\Users\think\IdeaProjects\fty_parent\fty_web)
+2019-11-08 16:10:12.986 fty [main] INFO  net.hzsec.FtyApplicationTest - The following profiles are active: dev
+2019-11-08 16:10:13.044 fty [main] INFO  o.s.w.c.s.GenericWebApplicationContext - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@1cb3ec38: startup date [Fri Nov 08 16:10:13 CST 2019]; root of context hierarchy
+2019-11-08 16:10:14.421 fty [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-11-08 16:10:15.102 fty [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$6d0b7af2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-08 16:10:15.320 fty [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'shiroConfig' of type [net.hzsec.config.shiro.ShiroConfig$$EnhancerBySpringCGLIB$$c4cb6d61] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-08 16:10:15.668 fty [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.boot.context.properties.ConversionServiceDeducer$Factory' of type [org.springframework.boot.context.properties.ConversionServiceDeducer$Factory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-08 16:10:15.683 fty [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'mybatis-plus-com.baomidou.mybatisplus.spring.boot.starter.MybatisPlusProperties' of type [com.baomidou.mybatisplus.spring.boot.starter.MybatisPlusProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-08 16:10:15.692 fty [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'mybatisPlusConfig' of type [net.hzsec.config.mybaties.MybatisPlusConfig$$EnhancerBySpringCGLIB$$7bc23652] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-08 16:10:15.709 fty [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'paginationInterceptor' of type [com.baomidou.mybatisplus.plugins.PaginationInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-08 16:10:15.720 fty [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.baomidou.mybatisplus.spring.boot.starter.MybatisPlusAutoConfiguration' of type [com.baomidou.mybatisplus.spring.boot.starter.MybatisPlusAutoConfiguration$$EnhancerBySpringCGLIB$$baab194f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-08 16:10:15.724 fty [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Generic' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Generic] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-08 16:10:15.744 fty [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-08 16:10:15.831 fty [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'dataSource' of type [com.alibaba.druid.pool.DruidDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-08 16:10:15.863 fty [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-08 16:10:16.015 fty [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-11-08 16:10:16.689 fty [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'sqlSessionFactory' of type [org.apache.ibatis.session.defaults.DefaultSqlSessionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-08 16:10:16.698 fty [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'sqlSessionTemplate' of type [org.mybatis.spring.SqlSessionTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-08 16:10:16.699 fty [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'userMapper' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-08 16:10:16.704 fty [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'userMapper' of type [com.sun.proxy.$Proxy105] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-08 16:10:16.713 fty [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'userServiceImpl' of type [net.hzsec.service.impl.UserServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-08 16:10:16.752 fty [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'jwtShiroRealm' of type [net.hzsec.config.shiro.ShiroRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-08 16:10:16.769 fty [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'dbShiroRealm' of type [net.hzsec.config.shiro.DbShiroRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-08 16:10:16.793 fty [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-08 16:10:16.854 fty [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'shiroFilterChainDefinition' of type [org.apache.shiro.spring.web.config.DefaultShiroFilterChainDefinition] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-08 16:10:16.886 fty [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$ec8bc824] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-08 16:10:17.604 fty [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/login/login],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Void> net.hzsec.web.login.LoginController.login(net.hzsec.entity.system.User)
+2019-11-08 16:10:17.606 fty [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/login/logout],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Void> net.hzsec.web.login.LoginController.logout(org.apache.catalina.servlet4preview.http.HttpServletRequest)
+2019-11-08 16:10:17.607 fty [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/role/insert],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.String> net.hzsec.web.system.RoleController.insert(net.hzsec.entity.system.Role) throws net.hzsec.config.exception.BusinessException
+2019-11-08 16:10:17.609 fty [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/insert],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.String> net.hzsec.web.system.UserController.insert(net.hzsec.entity.system.User)
+2019-11-08 16:10:17.610 fty [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/info],methods=[GET]}" onto public org.springframework.http.ResponseEntity<net.hzsec.entity.system.User> net.hzsec.web.system.UserController.insert(org.apache.catalina.servlet4preview.http.HttpServletRequest)
+2019-11-08 16:10:17.610 fty [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/getUser/{userId}],methods=[GET]}" onto public org.springframework.http.ResponseEntity<net.hzsec.entity.system.User> net.hzsec.web.system.UserController.getUser(int)
+2019-11-08 16:10:17.611 fty [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/userRole/insert],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.String> net.hzsec.web.system.UserRoleController.insert(net.hzsec.entity.system.UserRole)
+2019-11-08 16:10:17.612 fty [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/v2/api-docs],methods=[GET]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String)
+2019-11-08 16:10:17.615 fty [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/configuration/ui]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2019-11-08 16:10:17.615 fty [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/swagger-resources]}" onto org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2019-11-08 16:10:17.616 fty [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/configuration/security]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2019-11-08 16:10:17.619 fty [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-11-08 16:10:17.620 fty [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-11-08 16:10:18.190 fty [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-11-08 16:10:18.612 fty [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@1cb3ec38: startup date [Fri Nov 08 16:10:13 CST 2019]; root of context hierarchy
+2019-11-08 16:10:18.617 fty [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Detected @ModelAttribute methods in allControllerAdvice
+2019-11-08 16:10:18.617 fty [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Detected @InitBinder methods in allControllerAdvice
+2019-11-08 16:10:18.683 fty [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-11-08 16:10:18.683 fty [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-11-08 16:10:18.700 fty [main] INFO  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Detected @ExceptionHandler methods in allControllerAdvice
+2019-11-08 16:10:20.930 fty [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2019-11-08 16:10:21.617 fty [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found {0} custom documentation plugin(s)
+2019-11-08 16:10:21.642 fty [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2019-11-08 16:10:21.689 fty [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method login was 用户登陆
+2019-11-08 16:10:21.720 fty [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Request mapping: login belongs to groups: [[ResourceGroup{groupName='用户登陆', position=0, controller=net.hzsec.web.login.LoginController}]] 
+2019-11-08 16:10:21.746 fty [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method logout was 用户登陆
+2019-11-08 16:10:21.746 fty [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Request mapping: logout belongs to groups: [[ResourceGroup{groupName='用户登陆', position=0, controller=net.hzsec.web.login.LoginController}]] 
+2019-11-08 16:10:21.747 fty [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method insert was 角色管理
+2019-11-08 16:10:21.747 fty [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Request mapping: insert belongs to groups: [[ResourceGroup{groupName='角色管理', position=0, controller=net.hzsec.web.system.RoleController}]] 
+2019-11-08 16:10:21.747 fty [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method getUser was 后台用户
+2019-11-08 16:10:21.747 fty [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Request mapping: getUser belongs to groups: [[ResourceGroup{groupName='后台用户', position=0, controller=net.hzsec.web.system.UserController}]] 
+2019-11-08 16:10:21.747 fty [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method insert was 后台用户
+2019-11-08 16:10:21.747 fty [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Request mapping: insert belongs to groups: [[ResourceGroup{groupName='后台用户', position=0, controller=net.hzsec.web.system.UserController}]] 
+2019-11-08 16:10:21.747 fty [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method insert was 后台用户
+2019-11-08 16:10:21.747 fty [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Request mapping: insert belongs to groups: [[ResourceGroup{groupName='后台用户', position=0, controller=net.hzsec.web.system.UserController}]] 
+2019-11-08 16:10:21.748 fty [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method insert was 用户角色管理
+2019-11-08 16:10:21.748 fty [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Request mapping: insert belongs to groups: [[ResourceGroup{groupName='用户角色管理', position=0, controller=net.hzsec.web.system.UserRoleController}]] 
+2019-11-08 16:10:21.751 fty [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Created resource listing Path: /v1/后台用户 Description: 后台用户 Position: 0
+2019-11-08 16:10:21.752 fty [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Created resource listing Path: /v1/角色管理 Description: 角色管理 Position: 0
+2019-11-08 16:10:21.752 fty [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Created resource listing Path: /v1/用户角色管理 Description: 用户角色管理 Position: 0
+2019-11-08 16:10:21.752 fty [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Created resource listing Path: /v1/用户登陆 Description: 用户登陆 Position: 0
+2019-11-08 16:10:21.908 fty [main] INFO  s.d.schema.ModelContextKeyGenerator - Cache Key Generated: net.hzsec.entity.system.User(true)
+2019-11-08 16:10:21.908 fty [main] INFO  s.d.spring.web.caching.CachingAspect - Caching aspect applied for cache models with key net.hzsec.entity.system.User(true)
+2019-11-08 16:10:21.915 fty [main] INFO  s.d.s.p.ModelPropertiesKeyGenerator - Cache key generated: net.hzsec.entity.system.User(true)
+2019-11-08 16:10:21.915 fty [main] INFO  s.d.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key net.hzsec.entity.system.User(true)
+2019-11-08 16:10:22.052 fty [main] INFO  s.d.schema.ModelContextKeyGenerator - Cache Key Generated: net.hzsec.entity.system.User(true)
+2019-11-08 16:10:22.053 fty [main] INFO  s.d.spring.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key net.hzsec.entity.system.User(true)
+2019-11-08 16:10:22.056 fty [main] INFO  s.d.s.p.ModelPropertiesKeyGenerator - Cache key generated: net.hzsec.entity.system.User(true)
+2019-11-08 16:10:22.056 fty [main] INFO  s.d.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key net.hzsec.entity.system.User(true)
+2019-11-08 16:10:22.058 fty [main] INFO  s.d.s.web.OperationsKeyGenerator - Cache key generated: /user/getUser/{userId}.net.hzsec.web.system.UserController.getUser.DefaultGenericTypeNamingStrategy
+2019-11-08 16:10:22.058 fty [main] INFO  s.d.spring.web.caching.CachingAspect - Caching aspect applied for cache operations with key /user/getUser/{userId}.net.hzsec.web.system.UserController.getUser.DefaultGenericTypeNamingStrategy
+2019-11-08 16:10:22.127 fty [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method getUser was 后台用户
+2019-11-08 16:10:22.213 fty [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method getUser was 后台用户
+2019-11-08 16:10:22.220 fty [main] INFO  s.d.schema.ModelContextKeyGenerator - Cache Key Generated: net.hzsec.entity.system.User(true)
+2019-11-08 16:10:22.221 fty [main] INFO  s.d.spring.web.caching.CachingAspect - Caching aspect applied for cache models with key net.hzsec.entity.system.User(true)
+2019-11-08 16:10:22.221 fty [main] INFO  s.d.schema.ModelContextKeyGenerator - Cache Key Generated: net.hzsec.entity.system.User(true)
+2019-11-08 16:10:22.221 fty [main] INFO  s.d.spring.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key net.hzsec.entity.system.User(true)
+2019-11-08 16:10:22.221 fty [main] INFO  s.d.s.web.OperationsKeyGenerator - Cache key generated: /user/info.net.hzsec.web.system.UserController.insert.DefaultGenericTypeNamingStrategy
+2019-11-08 16:10:22.221 fty [main] INFO  s.d.spring.web.caching.CachingAspect - Caching aspect applied for cache operations with key /user/info.net.hzsec.web.system.UserController.insert.DefaultGenericTypeNamingStrategy
+2019-11-08 16:10:22.223 fty [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method insert was 后台用户
+2019-11-08 16:10:22.224 fty [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method insert was 后台用户
+2019-11-08 16:10:22.226 fty [main] INFO  s.d.schema.ModelContextKeyGenerator - Cache Key Generated: java.lang.String(true)
+2019-11-08 16:10:22.226 fty [main] INFO  s.d.spring.web.caching.CachingAspect - Caching aspect applied for cache models with key java.lang.String(true)
+2019-11-08 16:10:22.226 fty [main] INFO  s.d.schema.ModelContextKeyGenerator - Cache Key Generated: java.lang.String(true)
+2019-11-08 16:10:22.227 fty [main] INFO  s.d.spring.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key java.lang.String(true)
+2019-11-08 16:10:22.227 fty [main] INFO  s.d.schema.ModelContextKeyGenerator - Cache Key Generated: net.hzsec.entity.system.User(false)
+2019-11-08 16:10:22.227 fty [main] INFO  s.d.spring.web.caching.CachingAspect - Caching aspect applied for cache models with key net.hzsec.entity.system.User(false)
+2019-11-08 16:10:22.227 fty [main] INFO  s.d.s.p.ModelPropertiesKeyGenerator - Cache key generated: net.hzsec.entity.system.User(false)
+2019-11-08 16:10:22.227 fty [main] INFO  s.d.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key net.hzsec.entity.system.User(false)
+2019-11-08 16:10:22.230 fty [main] INFO  s.d.schema.ModelContextKeyGenerator - Cache Key Generated: net.hzsec.entity.system.User(false)
+2019-11-08 16:10:22.230 fty [main] INFO  s.d.spring.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key net.hzsec.entity.system.User(false)
+2019-11-08 16:10:22.230 fty [main] INFO  s.d.s.p.ModelPropertiesKeyGenerator - Cache key generated: net.hzsec.entity.system.User(false)
+2019-11-08 16:10:22.231 fty [main] INFO  s.d.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key net.hzsec.entity.system.User(false)
+2019-11-08 16:10:22.231 fty [main] INFO  s.d.s.web.OperationsKeyGenerator - Cache key generated: /user/insert.net.hzsec.web.system.UserController.insert.DefaultGenericTypeNamingStrategy
+2019-11-08 16:10:22.231 fty [main] INFO  s.d.spring.web.caching.CachingAspect - Caching aspect applied for cache operations with key /user/insert.net.hzsec.web.system.UserController.insert.DefaultGenericTypeNamingStrategy
+2019-11-08 16:10:22.232 fty [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method insert was 后台用户
+2019-11-08 16:10:22.233 fty [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method insert was 后台用户
+2019-11-08 16:10:22.239 fty [main] INFO  s.d.schema.ModelContextKeyGenerator - Cache Key Generated: java.lang.Void(true)
+2019-11-08 16:10:22.239 fty [main] INFO  s.d.spring.web.caching.CachingAspect - Caching aspect applied for cache models with key java.lang.Void(true)
+2019-11-08 16:10:22.240 fty [main] INFO  s.d.schema.ModelContextKeyGenerator - Cache Key Generated: java.lang.Void(true)
+2019-11-08 16:10:22.240 fty [main] INFO  s.d.spring.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key java.lang.Void(true)
+2019-11-08 16:10:22.240 fty [main] INFO  s.d.schema.ModelContextKeyGenerator - Cache Key Generated: net.hzsec.entity.system.User(false)
+2019-11-08 16:10:22.240 fty [main] INFO  s.d.spring.web.caching.CachingAspect - Caching aspect applied for cache models with key net.hzsec.entity.system.User(false)
+2019-11-08 16:10:22.240 fty [main] INFO  s.d.schema.ModelContextKeyGenerator - Cache Key Generated: net.hzsec.entity.system.User(false)
+2019-11-08 16:10:22.240 fty [main] INFO  s.d.spring.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key net.hzsec.entity.system.User(false)
+2019-11-08 16:10:22.240 fty [main] INFO  s.d.s.web.OperationsKeyGenerator - Cache key generated: /login/login.net.hzsec.web.login.LoginController.login.DefaultGenericTypeNamingStrategy
+2019-11-08 16:10:22.240 fty [main] INFO  s.d.spring.web.caching.CachingAspect - Caching aspect applied for cache operations with key /login/login.net.hzsec.web.login.LoginController.login.DefaultGenericTypeNamingStrategy
+2019-11-08 16:10:22.242 fty [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method login was 用户登陆
+2019-11-08 16:10:22.242 fty [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method login was 用户登陆
+2019-11-08 16:10:22.243 fty [main] INFO  s.d.schema.ModelContextKeyGenerator - Cache Key Generated: java.lang.Void(true)
+2019-11-08 16:10:22.244 fty [main] INFO  s.d.spring.web.caching.CachingAspect - Caching aspect applied for cache models with key java.lang.Void(true)
+2019-11-08 16:10:22.244 fty [main] INFO  s.d.schema.ModelContextKeyGenerator - Cache Key Generated: java.lang.Void(true)
+2019-11-08 16:10:22.244 fty [main] INFO  s.d.spring.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key java.lang.Void(true)
+2019-11-08 16:10:22.244 fty [main] INFO  s.d.s.web.OperationsKeyGenerator - Cache key generated: /login/logout.net.hzsec.web.login.LoginController.logout.DefaultGenericTypeNamingStrategy
+2019-11-08 16:10:22.244 fty [main] INFO  s.d.spring.web.caching.CachingAspect - Caching aspect applied for cache operations with key /login/logout.net.hzsec.web.login.LoginController.logout.DefaultGenericTypeNamingStrategy
+2019-11-08 16:10:22.245 fty [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method logout was 用户登陆
+2019-11-08 16:10:22.246 fty [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method logout was 用户登陆
+2019-11-08 16:10:22.248 fty [main] INFO  s.d.schema.ModelContextKeyGenerator - Cache Key Generated: java.lang.String(true)
+2019-11-08 16:10:22.248 fty [main] INFO  s.d.spring.web.caching.CachingAspect - Caching aspect applied for cache models with key java.lang.String(true)
+2019-11-08 16:10:22.248 fty [main] INFO  s.d.schema.ModelContextKeyGenerator - Cache Key Generated: java.lang.String(true)
+2019-11-08 16:10:22.248 fty [main] INFO  s.d.spring.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key java.lang.String(true)
+2019-11-08 16:10:22.249 fty [main] INFO  s.d.schema.ModelContextKeyGenerator - Cache Key Generated: net.hzsec.entity.system.UserRole(false)
+2019-11-08 16:10:22.249 fty [main] INFO  s.d.spring.web.caching.CachingAspect - Caching aspect applied for cache models with key net.hzsec.entity.system.UserRole(false)
+2019-11-08 16:10:22.250 fty [main] INFO  s.d.s.p.ModelPropertiesKeyGenerator - Cache key generated: net.hzsec.entity.system.UserRole(false)
+2019-11-08 16:10:22.250 fty [main] INFO  s.d.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key net.hzsec.entity.system.UserRole(false)
+2019-11-08 16:10:22.252 fty [main] INFO  s.d.schema.ModelContextKeyGenerator - Cache Key Generated: net.hzsec.entity.system.UserRole(false)
+2019-11-08 16:10:22.253 fty [main] INFO  s.d.spring.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key net.hzsec.entity.system.UserRole(false)
+2019-11-08 16:10:22.253 fty [main] INFO  s.d.s.p.ModelPropertiesKeyGenerator - Cache key generated: net.hzsec.entity.system.UserRole(false)
+2019-11-08 16:10:22.253 fty [main] INFO  s.d.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key net.hzsec.entity.system.UserRole(false)
+2019-11-08 16:10:22.253 fty [main] INFO  s.d.s.web.OperationsKeyGenerator - Cache key generated: /userRole/insert.net.hzsec.web.system.UserRoleController.insert.DefaultGenericTypeNamingStrategy
+2019-11-08 16:10:22.253 fty [main] INFO  s.d.spring.web.caching.CachingAspect - Caching aspect applied for cache operations with key /userRole/insert.net.hzsec.web.system.UserRoleController.insert.DefaultGenericTypeNamingStrategy
+2019-11-08 16:10:22.254 fty [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method insert was 用户角色管理
+2019-11-08 16:10:22.255 fty [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method insert was 用户角色管理
+2019-11-08 16:10:22.255 fty [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: insertUsingPOST_1
+2019-11-08 16:10:22.256 fty [main] INFO  s.d.schema.ModelContextKeyGenerator - Cache Key Generated: java.lang.String(true)
+2019-11-08 16:10:22.257 fty [main] INFO  s.d.spring.web.caching.CachingAspect - Caching aspect applied for cache models with key java.lang.String(true)
+2019-11-08 16:10:22.257 fty [main] INFO  s.d.schema.ModelContextKeyGenerator - Cache Key Generated: java.lang.String(true)
+2019-11-08 16:10:22.257 fty [main] INFO  s.d.spring.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key java.lang.String(true)
+2019-11-08 16:10:22.257 fty [main] INFO  s.d.schema.ModelContextKeyGenerator - Cache Key Generated: net.hzsec.entity.system.Role(false)
+2019-11-08 16:10:22.257 fty [main] INFO  s.d.spring.web.caching.CachingAspect - Caching aspect applied for cache models with key net.hzsec.entity.system.Role(false)
+2019-11-08 16:10:22.257 fty [main] INFO  s.d.s.p.ModelPropertiesKeyGenerator - Cache key generated: net.hzsec.entity.system.Role(false)
+2019-11-08 16:10:22.257 fty [main] INFO  s.d.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key net.hzsec.entity.system.Role(false)
+2019-11-08 16:10:22.260 fty [main] INFO  s.d.schema.ModelContextKeyGenerator - Cache Key Generated: net.hzsec.entity.system.Role(false)
+2019-11-08 16:10:22.260 fty [main] INFO  s.d.spring.web.caching.CachingAspect - Caching aspect applied for cache modelDependencies with key net.hzsec.entity.system.Role(false)
+2019-11-08 16:10:22.260 fty [main] INFO  s.d.s.p.ModelPropertiesKeyGenerator - Cache key generated: net.hzsec.entity.system.Role(false)
+2019-11-08 16:10:22.261 fty [main] INFO  s.d.spring.web.caching.CachingAspect - Caching aspect applied for cache modelProperties with key net.hzsec.entity.system.Role(false)
+2019-11-08 16:10:22.261 fty [main] INFO  s.d.s.web.OperationsKeyGenerator - Cache key generated: /role/insert.net.hzsec.web.system.RoleController.insert.DefaultGenericTypeNamingStrategy
+2019-11-08 16:10:22.261 fty [main] INFO  s.d.spring.web.caching.CachingAspect - Caching aspect applied for cache operations with key /role/insert.net.hzsec.web.system.RoleController.insert.DefaultGenericTypeNamingStrategy
+2019-11-08 16:10:22.263 fty [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method insert was 角色管理
+2019-11-08 16:10:22.264 fty [main] INFO  s.d.s.w.ClassOrApiAnnotationResourceGrouping - Group for method insert was 角色管理
+2019-11-08 16:10:22.264 fty [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: insertUsingPOST_2
+2019-11-08 16:10:22.286 fty [main] INFO  net.hzsec.FtyApplicationTest - Started FtyApplicationTest in 9.879 seconds (JVM running for 11.138)
+2019-11-08 16:10:26.373 fty [Thread-2] INFO  o.s.w.c.s.GenericWebApplicationContext - Closing org.springframework.web.context.support.GenericWebApplicationContext@1cb3ec38: startup date [Fri Nov 08 16:10:13 CST 2019]; root of context hierarchy
+2019-11-08 16:10:26.384 fty [Thread-2] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
